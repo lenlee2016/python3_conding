@@ -21,3 +21,5 @@ drinks= {
 for name,contents in drinks.items():
     if 'vodka' in contents:
         print(name)
+
+import this
