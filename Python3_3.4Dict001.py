@@ -10,7 +10,7 @@ print(list(SIGNALS.items()))
 EMPTY_SET = set()
 print(EMPTY_SET)
 EVEN_NUM = {0, 2, 4, 6, 8.0, 10, 12.0}
-ODD_NUM = {1, 3, 5.0, 7.0, 9.0, 11, 13.0} 
+ODD_NUM = {1, 3, 5.0, 7.0, 9.0, 11, 13.0}
 print(EVEN_NUM)
 print(ODD_NUM)
 print(set('letters'))
@@ -26,11 +26,9 @@ for name, contents in DRINKS.items():
     if 'vodka' in contents:
         print(name)
 
-'''import this'''
+###import this
 
 
 NOW = time.time()
 print(time.ctime(NOW))
 print(time.localtime(NOW))
-
-time = time.time()
