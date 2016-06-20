@@ -32,3 +32,13 @@ for name, contents in DRINKS.items():
 NOW = time.time()
 print(time.ctime(NOW))
 print(time.localtime(NOW))
+
+def is_none(thing):
+    if thing is None:
+        print("It's None.")
+    elif thing:
+        print("It's True.")
+    else:
+        print("It's false.")
+
+is_none(set())
